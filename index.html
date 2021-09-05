@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>الرئيسية</title>
+    <link rel =" stylesheet " href="./style.css" >
+
+    <style>
+        body {
+        background-color: #664b8aec;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;   
+             }
+    </style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  
+    <section class="header">
+        <nav>
+            <img src="icons8-pink-cute-folder-96 .png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="green" >
+                        <a href="contactUs.html"style="text-decoration: none">تواصل معنا </a>
+                    </li>
+                    <li class="green"> 
+                        <a href="AboutUs.html"style="text-decoration: none">من نحن</a>
+                    </li>
+                    <li class="green" >
+                        <a href="index.html" style="text-decoration: none" >الرئيسية </a> 
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <!-- START THE MAIN TEXT  -->
+    <div class="textBox">
+        <h1>مهمة الانسان الوحيدة تكمن في ان يعيش , وأن يكون سعيدا </h1>
+        <p> البير كامو</p>
+    </div>
+     <!-- END THE MAIN TEXT  -->
+    
+    <br> <br> <br> <br> 
+    <!-- التعريف بالموقع-->
+
+    <section class="content"> 
+        
+        <div class="title" > مرحبا بك ... متى ما كنت جاهزا تستطيع التحليق هنا </div> <br>
+        <div class="subtitle">   حيث العديد من المواضيع التي تطرح العديد من الاسئلة التي لانهاية لها </div>
+
+            <div class="row">
+                <div class="column">
+                    <h2> أساتذة اليأس</h2>
+                    <p>هنا ستجدون بعض كتّاب العدميّة انطلاقاً من ابو العلا و شوبنهاور الى كافكا و البير كامو الذين هم اساس نشأة الفكر العدميّ
+                    </p>
+                </div>
+
+                <div class="column">
+                    <h2> كتب</h2>
+                    <p>هنا تجدون بعض الكتب التي هي مثال على العبثية في الادب كالغريب والمسخ وبعض الكتب الفلسفية كالوجود والعدم
+                    </p>
+                </div>
+
+                <div class="column">
+                    <h2> مواضيع</h2>
+                    <p>مواضيع فلسفية شيقة تجعل الحياة مثيرة للاهتمام بعض الشيء
+                    </p>
+                </div>
+            </div>
+
+            <a href="#down" class="broo"> <b> اضغط هنا لمعرفة المزيد </b> </a>
+
+    </section>
+    <!-- نهاية التعريف بالموقع-->
+    <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> 
+
+    <!-- تفرع الصفحات-->
+    <section class="subject">
+        <div class="title" id="down">  تستطيعون اختيار احد هذه الحقول </div>
+        <div class="subtitle">ابحث عن الحقيقة , ربما لن تجدها ابدا لكن الرحلة حتما ستكون ممتعة </div>
+
+        <div class="row">
+          
+            <div class="column-sub">
+                <img src="Newton.jpg"> 
+                <div class="davinci">
+                   <a href="people.html"> <h1>اساتذة اليأس</h1></a>
+                </div> 
+            </div> 
+       
+            <div class="column-sub">
+            <img src="books.jpg"> 
+                <div class="davinci">
+                 <a href="book.html"><h1>كتب </h1> </a>
+                </div> 
+            </div> 
+        
+            <div class="column-sub">
+                <img src="gitar.jpg">
+                <div class="davinci">
+                    <a href="subjects.html"><h1>مواضيع</h1></a>
+                </div> 
+            </div>  
+        </div>
+    </section>
+    <!--نهاية تفرع الصفحات-->
+    <br> <br> <br> <br> <br> <br><br> <br> <br> <br> <br><br> <br> <br><br><br> <br>
+    <!-- بداية تواصل معنا-->
+    <section class="footer"> 
+        <br> <br>
+        <h1 > ان كانت لديكم استفسارات يمكنكم التواصل معنا هنا</h1>
+        <a href="" ><img src="icons8-twitter-48.png" ></a>
+        <a href="" ><img src="icons8-instagram-48.png"></a> <br> <br>
+        <h4> made with <img src="icons8-heart-24.png"> By Fai</h4>
+    </section>
+    <!-- نهاية تواصل معنا-->
+    <br> <br> 
+ 
+  <!------------------------------- JavaScript for menu --------------------------------->  
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir ="rtl"> <head>
+    <title>تواصل معنا </title>
+    <link rel =" stylesheet " href="./style.css" >
+
+    <style>
+        body {
+        background-color: #112627;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+         
+    }
+    </style>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!--headerContact-->
+  <section class="header2">
+    <nav>
+        <img src="icons8-pink-cute-folder-96 .png">
+        <div class="nav-links2" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li class="green" >
+                    <a href="contactUs.html" style="text-decoration: none">تواصل معنا </a>
+                </li>
+                <li class="green"> 
+                    <a href="AboutUs.html"style="text-decoration: none">من نحن</a>
+                </li>
+                <li class="green" >
+                    <a href="index.html" style="text-decoration: none" >الرئيسية </a> 
+                </li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+    
+
+    <section class="contact" > 
+        <div class="content3">
+            <h1> تواصل معنا </h1>
+            <p> مرحبا بكم جميعا , ان كان لديكم اي استفسار تستطيعون ارسال رسالة لنا , وسنجيب عليكم في اسرع وقت</p>
+        </div>
+        <div class="contanior3">
+            <div class="contactInfo">
+                <div class="box3">
+                    <div class="icon3"><img src="icons8-address-48.png"></div>
+                    <div class="text3">
+                        <h3> العنوان</h3>
+                        <p> لا يوجد عنوان في الوقت الحالي , لكن سيتم التحديث فور وجود عنوان محدد</p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="icon3"><img src="icons8-phone-48.png"></div>
+                    <div class="text3">
+                        <h3> رقم الجوال</h3>
+                        <p> لا يوجد رقم جوال في الوقت الحالي , لكن سيتم التحديث فور وجوده</p>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="icon3"><img src="icons8-email-48.png"></div>
+                    <div class="text3">
+                        <h3> الايميل</h3>
+                        <p> Faisaleh79@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form action="Form.php" method="POST">
+                    <input type="text" name="name" placeholder="الاسم الكامل " required>
+                    <input type="email" name="email" placeholder="الايميل" required>
+                    <input type="text" name="subject" placeholder="الموضوع " required>
+                    <textarea rows="8" name="message" placeholder="رسالتك ..." required></textarea> 
+                    <button type="submit" class="button3"> ارسل</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer3">
+            <a href=""><img src="icons8-twitter-48.png" ></a>
+            <a href="" ><img src="icons8-instagram-48.png"></a>
+            <h4> made with <img src="icons8-heart-24.png"> By Fai</h4>
+          </div>
+    </section>
+
+   <!------------------------------- JavaScript for menu --------------------------------->  
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
