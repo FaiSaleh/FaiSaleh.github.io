@@ -23,7 +23,7 @@ nav{
     margin: 20px ;
 }
 .nav-links {
-    margin-right: 250px;
+    margin-right: 200px;
     flex: 1;
 }
 .nav-links ul li {
@@ -32,7 +32,7 @@ nav{
     padding:20;
     position: relative;
     font-weight:bold;
-    font-size:30px; 
+    font-size:25px; 
     background-color: #B280CF; 
     border-radius: 1.5em;
 }
