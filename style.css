@@ -23,7 +23,7 @@ nav{
     margin: 20px ;
 }
 .nav-links {
-    margin-left: 100px;
+    margin-right: 100px;
     flex: 1;
 }
 .nav-links ul li {
@@ -32,7 +32,7 @@ nav{
     padding:20;
     position: relative;
     font-weight:bold;
-    font-size:20px; 
+    font-size:30px; 
     background-color: #B280CF; 
     border-radius: 1.5em;
 }
@@ -44,7 +44,7 @@ nav{
 li::after {
     content: ' ';
     width: 0%;
-    height: 2px;
+    height: 4px;
     background: white; /** #85498d */
     display: block;
     margin: auto;
