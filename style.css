@@ -23,7 +23,7 @@ nav{
     margin: 20px ;
 }
 .nav-links {
-    margin-right: 80px;
+    margin-left: 80px;
     flex: 1;
 }
 .nav-links ul li {
