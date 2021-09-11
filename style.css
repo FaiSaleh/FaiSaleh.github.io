@@ -39,7 +39,7 @@ nav{
  a {
     display: inline-block;
     color :#ffffff;
-    padding: 55px;
+    padding: 45px;
    }
 li::after {
     content: ' ';
