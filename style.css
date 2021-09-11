@@ -191,7 +191,7 @@ p {
 .footer {
     margin: 100% ;
     margin : auto ;
-    width: 100%;
+    width: 90%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(pinkocean.jpg);
     background-position: center;
     background-size: cover;
