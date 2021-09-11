@@ -1026,7 +1026,7 @@ nav{
 .nauseaPage{
     height:100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(nausea3.jfif);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(nausea3.jfif);/*  */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1079,7 +1079,7 @@ nav{
 .SchopenhauerPage  {
     height:100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Schopenhauer.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Schopenhauer.jpg);/*  */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
