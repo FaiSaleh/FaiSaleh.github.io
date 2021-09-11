@@ -224,7 +224,7 @@ p {
     margin-top: 20px;
 }
 
-@media (max-width :  650px) {
+@media (max-width :  750px) {
     
     .textBox h1 {
         font-size: 30px;
