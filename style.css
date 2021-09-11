@@ -39,12 +39,12 @@ nav{
  a {
     display: inline-block;
     color :#ffffff;
-    padding: 25px;
+    padding: 35px;
    }
 li::after {
     content: ' ';
     width: 0%;
-    height: 4px;
+    height: 6px;
     background: white; /** #85498d */
     display: block;
     margin: auto;
